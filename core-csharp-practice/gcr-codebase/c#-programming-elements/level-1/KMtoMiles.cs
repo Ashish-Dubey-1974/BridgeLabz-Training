@@ -1,9 +1,10 @@
 using System;
-class KilometerToMiles
+class KMtoMiles
 {
     public static void Main()
     {
-        double km = 10.8;
+        Console.WriteLine("Enter KM");
+        double km = double.Parse(Console.ReadLine());
         double miles = km/1.6;
         Console.WriteLine($"The distance {km} km in miles is {miles}"); 
     }
