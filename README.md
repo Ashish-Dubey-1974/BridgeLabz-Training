@@ -5,8 +5,12 @@ BridgeLabz-Training/
 |   ├── gcr-codebase/
 |   |    ├──programming-elements
 |   |    ├──c#-programming-elements/
+|   |    |  ├──level1
+|   |    |  ├──level2
+|   |    ├──c#-control-flows/
 |   |       ├──level1
 |   |       ├──level2
+|   |       ├──level3  
 │   ├── leet-code-codebase/
 │   ├── scenario-based/
 │── README.md
@@ -36,4 +40,10 @@ BridgeLabz-Training/
 - Learned about modifiers in C#
 - Practiced C# programs using command-line input and output
 
-- Improved understanding of program execution flow
+🟢 22 December 2025
+- Learned control flow statements in C#
+- Practiced C# programs using conditional statements
+
+🟢 23 December 2025
+- Learned about arrays in C#
+- Practiced C# programs using arrays
