@@ -46,4 +46,5 @@ BridgeLabz-Training/
 
 🟢 23 December 2025
 - Learned about arrays in C#
-- Practiced C# programs using arrays
+- Practiced C# programs using arrays.
+
