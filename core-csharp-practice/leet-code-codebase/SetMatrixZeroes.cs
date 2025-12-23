@@ -12,10 +12,14 @@ public class SetMatrixZeroes {
                 }
             }
         }foreach(int i in row){
-            for(int j=0;j<m[i].Length;j++)m[i][j]=0;
+            for(int j=0;j<m[i].Length;j++){
+                m[i][j]=0;
+            }
         }
         foreach(int i in col){
-            for(int j=0;j<m.Length;j++)m[j][i]=0;
+            for(int j=0;j<m.Length;j++){
+                m[j][i]=0;
+            }
         }
     }
 }
