@@ -8,9 +8,12 @@ BridgeLabz-Training/
 |   |    |  ├──level1
 |   |    |  ├──level2
 |   |    ├──c#-control-flows/
-|   |       ├──level1
-|   |       ├──level2
-|   |       ├──level3  
+|   |    |  ├──level1
+|   |    |  ├──level2
+|   |    |  ├──level3
+|   |    ├──c#-arrays/
+|   |    |  ├──level1
+|   |    |  ├──level2
 │   ├── leet-code-codebase/
 │   ├── scenario-based/
 │── README.md
@@ -47,4 +50,5 @@ BridgeLabz-Training/
 🟢 23 December 2025
 - Learned about arrays in C#
 - Practiced C# programs using arrays.
+
 
