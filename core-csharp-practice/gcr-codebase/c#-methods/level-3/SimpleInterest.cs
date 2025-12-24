@@ -12,5 +12,6 @@ class SimpleInterest
     static double CalculateSI(double p,double r,double t)
     {
         return (p*r*t)/100;
+        
     }
 }
