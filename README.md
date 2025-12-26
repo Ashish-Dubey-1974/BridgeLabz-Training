@@ -56,3 +56,11 @@ BridgeLabz-Training/
 - Practiced C# programs using different methods with different parameters.
 
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+<!---LeetCode Topics End-->
