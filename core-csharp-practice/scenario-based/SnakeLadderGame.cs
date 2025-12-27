@@ -42,25 +42,30 @@ class SnakeLadderGame{
             {
                 int oldPosition = players[i];
                 int point = rollDice();
-                movePlayer(i,point);
+                int s=0,e=0;
+                movePlayer(i,point,ref s,ref e);
+                Console.WriteLine($"Player - {i+1}\nDice Value - {point}\nOldPosition - {oldPosition}\nNewPosition - {players[i]}");
+                if(e<s)Console.WriteLine($"Snake bite 😂 {s} 🐍 {e}\n");
+                else if(s<e)Console.WriteLine($"Ladder 👌 {s} 🪜 {e}\n");
                 if (checkWins(i))
                 {
                     Console.WriteLine($"Congratulations !! Player {i+1} Wins the match");
                     wins=true;
                     break;
                 }
-                Console.WriteLine($"Player - {i+1}\nDice Value - {point}\nOldPosition - {oldPosition}\nNewPosition - {players[i]}");
-                if(oldPosition>players[i])Console.WriteLine("Snake bite 😂");
-                else if(players[i]-oldPosition>6)Console.WriteLine("Ladder 👌");
                 Console.WriteLine("\n");
             }
         }
         static int rollDice()=> r.Next(1,7);
-        static void movePlayer(int Player,int points)
+        static void movePlayer(int Player,int points,ref int st,ref int ed)
         {
             int score = players[Player]+points;
             if(score>100)return;
-            if (snake_Ladder.ContainsKey(score))score = snake_Ladder[score];
+            if (snake_Ladder.ContainsKey(score)){
+                st = score;
+                score = snake_Ladder[score];
+                ed = score;
+            }
             players[Player] = score;
         }
         static bool checkWins(int i)=> players[i]==100;
