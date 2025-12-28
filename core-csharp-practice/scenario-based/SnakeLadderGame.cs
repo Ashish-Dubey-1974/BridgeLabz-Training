@@ -35,11 +35,14 @@ class SnakeLadderGame{
         bool wins = false;
         while (!wins)
         {
-            Console.WriteLine($"Its your turn to continue press any Key and to End Press \"N\" and Enter-->");
-            char check = Convert.ToChar(Console.ReadLine()[0]);
-            if(check=='N')return;
+            // Console.WriteLine($"Its your turn to continue press any Key and to End Press \"N\" and Enter-->");
+            // string check = (Console.ReadLine());
+            // if(check.Equals("N"))return;
             for(int i = 0; i < n; i++)
             {
+                Console.WriteLine($"Its player {i+1} turn to continue press any Key and to End Press \"N\" and Enter-->");
+                string check = (Console.ReadLine());
+                if(check.Equals("N"))return;
                 int oldPosition = players[i];
                 int point = rollDice();
                 int s=0,e=0;
