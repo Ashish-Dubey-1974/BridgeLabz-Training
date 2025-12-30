@@ -95,14 +95,21 @@ BridgeLabz-Training/
 - Learned methods in C#
 - Practiced programs using different method signatures
 
-### 🟢 After 24 December 2025
+### 🟢 26 December 2025
 - Practiced string manipulation programs
 - Solved LeetCode array and string problems
+
+### 🟢 29 December 2025
 - Implemented scenario-based applications such as:
   - Snake & Ladder Game
   - Student Data Analyzer
   - Temperature Analysis
   - Sentence & Paragraph Formatting
+
+### 🟢 30 December 2025
+- Implemented scenario-based applications such as:
+  - Library Management
+  - Grade Calculate App
 
 ---
 
