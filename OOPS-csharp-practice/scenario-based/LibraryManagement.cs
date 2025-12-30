@@ -3,24 +3,36 @@ using System;
 class LibraryManagement
 {
     static string[] titles = {
-        "C Programming",
-        "Learning C#",
-        "Java Basics",
-        "Python Guide",
-        "Data Structures"
-    };
+    "The God of Small Things",
+    "Midnight's Children",
+    "Wings of Fire",
+    "The White Tiger",
+    "Malgudi Days",
+    "Train to Pakistan",
+    "Discovery of India",
+    "Five Point Someone",
+    "Gitanjali",
+    "A Suitable Boy"
+};
 
-    static string[] authors = {
-        "Dennis Ritchie",
-        "Microsoft",
-        "James Gosling",
-        "Guido van Rossum",
-        "Mark Allen"
-    };
+static string[] authors = {
+    "Arundhati Roy",
+    "Salman Rushdie",
+    "A. P. J. Abdul Kalam",
+    "Aravind Adiga",
+    "R. K. Narayan",
+    "Khushwant Singh",
+    "Jawaharlal Nehru",
+    "Chetan Bhagat",
+    "Rabindranath Tagore",
+    "Vikram Seth"
+};
+
 
     static bool[] isAvailable = new bool[titles.Length];
     static LibraryManagement()
     {
+        Console.WriteLine("\n============Application Started=================>");
         for(int i=0;i<isAvailable.Length;i++)isAvailable[i] = true;
 
     }
@@ -29,15 +41,9 @@ class LibraryManagement
     {
         int choice;
 
-        do
+        while(true)
         {
-            Console.WriteLine("\n============Application Started=================>");
-            Console.WriteLine("\n📚 Library Management System");
-            Console.WriteLine("1. Display All Books");
-            Console.WriteLine("2. Search Book by Title");
-            Console.WriteLine("3. Checkout Book");
-            Console.WriteLine("4. Return Book");
-            Console.WriteLine("5. Exit");
+            Console.WriteLine("\n📚 Library Management System\n1. Display All Books\n2. Search Book by Title\n3. Checkout Book\n4. Return Book\n5. Exit");
             Console.Write("Enter your choice: ");
 
             choice = int.Parse(Console.ReadLine());
@@ -47,32 +53,27 @@ class LibraryManagement
                 case 1:
                     DisplayBooks();
                     break;
-
                 case 2:
                     SearchBook();
                     break;
-
                 case 3:
                     CheckoutBook();
                     break;
-
                 case 4:
                     ReturnBook();
                     break;
-
                 case 5:
                     Console.WriteLine("Thank you for using the Library System!");
-                    break;
-
+                    return;
                 default:
                     Console.WriteLine("Invalid choice. Try again.");
-                    break;
+                    return;
             }
 
-        } while (choice != 5);
+        }
     }
 
-    // Display all books
+    // ===============================================Display all books================>
     static void DisplayBooks()
     {
         Console.WriteLine("\nAvailable Books:\n");
@@ -84,7 +85,7 @@ class LibraryManagement
         }
     }
 
-    // Search book by partial title
+    //============================================ Search book by partial title=================>
     static void SearchBook()
     {
         Console.Write("\nEnter part of book title to search: ");
@@ -101,13 +102,10 @@ class LibraryManagement
             }
         }
 
-        if (!found)
-        {
-            Console.WriteLine("No books found with that title.");
-        }
+        if (!found)Console.WriteLine("No books found with that title.");
     }
 
-    // Checkout book
+    //============================================= Checkout book=============================>
     static void CheckoutBook()
     {
         Console.Write("\nEnter book number to checkout: ");
@@ -120,18 +118,12 @@ class LibraryManagement
                 isAvailable[index] = false;
                 Console.WriteLine($"'{titles[index]}' has been checked out successfully.");
             }
-            else
-            {
-                Console.WriteLine("Book is already checked out.");
-            }
+            else Console.WriteLine("Book is already checked out.");
         }
-        else
-        {
-            Console.WriteLine("Invalid book number.");
-        }
+        else Console.WriteLine("Invalid book number.");
     }
 
-    // Return book
+    //======================================================= Return book========================>
     static void ReturnBook()
     {
         Console.Write("\nEnter book number to return: ");
@@ -144,14 +136,8 @@ class LibraryManagement
                 isAvailable[index] = true;
                 Console.WriteLine($"'{titles[index]}' has been returned successfully.");
             }
-            else
-            {
-                Console.WriteLine("Book is already available.");
-            }
+            else Console.WriteLine("Book is already available.");
         }
-        else
-        {
-            Console.WriteLine("Invalid book number.");
-        }
+        else Console.WriteLine("Invalid book number.");
     }
 }
