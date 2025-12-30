@@ -1,71 +1,128 @@
-## 📌 Repository Structure
-```text
+# 📘 BridgeLabz Training – C# Practice Repository
+
+## 👨‍💻 About This Repository
+This repository contains my C# training work during the BridgeLabz program.
+It includes core C# concepts, Google Classroom problems, LeetCode practice,
+and scenario-based problem solving, organized in a structured manner for
+easy navigation and learning.
+
+---
+
+## 📂 Repository Structure
+``` text
 BridgeLabz-Training/
-│── core-csharp-practice/
-|   ├── gcr-codebase/
-|   |    ├──programming-elements
-|   |    ├──c#-programming-elements/
-|   |    |  ├──level1
-|   |    |  ├──level2
-|   |    ├──c#-control-flows/
-|   |    |  ├──level1
-|   |    |  ├──level2
-|   |    |  ├──level3
-|   |    ├──c#-arrays/
-|   |    |  ├──level1
-|   |    |  ├──level2
+│
+├── core-csharp-practice/
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   ├── c#-programming-elements/
+│   │   │   ├── level1/
+│   │   │   ├── level2/
+│   │   ├── c#-control-flows/
+│   │   │   ├── level1/
+│   │   │   ├── level2/
+│   │   │   ├── level3/
+│   │   ├── c#-arrays/
+│   │   │   ├── level1/
+│   │   │   ├── level2/
+│   │   ├── c#-string/
+│   │   ├── c#-methods/
+│   │
 │   ├── leet-code-codebase/
+│   │   ├── ArraysSortedAndRotated.cs
+│   │   ├── PascalTriangle.cs
+│   │   ├── SetMatrixZeroes.cs
+│   │   ├── 0026-remove-duplicates-from-sorted-array.cs
+│   │   ├── 1752-check-if-array-is-sorted-and-rotated.cs
+│   │
 │   ├── scenario-based/
-│── README.md
+│   │   ├── paragraph.cs
+│   │   ├── SentenceFormat.cs
+│   │   ├── SnakeLadderGame.cs
+│   │   ├── StudentsData.cs
+│   │   ├── TemperatureAnalyser.cs
+│
+├── README.md
+└── .gitignore
+```
+---
 
-``` 
-📘 Training Progress Log
+## 🧠 Topics Covered
+- C# Programming Fundamentals
+- Programming Elements
+- Control Flow Statements
+- Arrays
+- Methods
+- Strings
+- LeetCode Problem Solving
+- Scenario-Based Applications
 
-🟢 16 December 2025
+---
+
+## 🗓️ Training Progress Log
+
+### 🟢 16 December 2025
 - Initiated training program
 - Installed and configured essential development tools (Eclipse, Git Bash)
-- Created and successfully set up a GitHub repository for practice and version control
+- Created and set up GitHub repository for version control
 
-🟢 17 December 2025
+### 🟢 17 December 2025
 - Solved 10 programming problems from the Google Classroom codebase
-- Practiced problem-solving and improved logical thinking
+- Improved logical thinking and problem-solving skills
 
-🟢 18 December 2025
+### 🟢 18 December 2025
 - Started learning .NET framework and C#
-- Understood the basic architecture and components of .NET
-- Solved 10 beginner-level programs in C#
+- Understood basic architecture and components of .NET
+- Solved 10 beginner-level C# programs
 
-🟢 19 December 2025
-- Learned different data types in C#
-- Practiced using arithmetic, relational, and logical operators in programs
+### 🟢 19 December 2025
+- Learned C# data types
+- Practiced arithmetic, relational, and logical operators
 
-🟢 20 December 2025
-- Learned about modifiers in C#
-- Practiced C# programs using command-line input and output
+### 🟢 20 December 2025
+- Learned modifiers in C#
+- Practiced command-line input/output programs
 
-🟢 22 December 2025
-- Learned control flow statements in C#
-- Practiced C# programs using conditional statements
+### 🟢 22 December 2025
+- Learned control flow statements
+- Practiced conditional and looping programs
 
-🟢 23 December 2025
-- Learned about arrays in C#
-- Practiced C# programs using arrays.
+### 🟢 23 December 2025
+- Learned arrays in C#
+- Solved array-based programs
 
-🟢 24 December 2025
-- Learned about Methods in C#
-- Practiced C# programs using different methods with different parameters.
+### 🟢 24 December 2025
+- Learned methods in C#
+- Practiced programs using different method signatures
 
+### 🟢 After 24 December 2025
+- Practiced string manipulation programs
+- Solved LeetCode array and string problems
+- Implemented scenario-based applications such as:
+  - Snake & Ladder Game
+  - Student Data Analyzer
+  - Temperature Analysis
+  - Sentence & Paragraph Formatting
 
+---
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/1752-check-if-array-is-sorted-and-rotated) |
-## Two Pointers
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0026-remove-duplicates-from-sorted-array) |
-<!---LeetCode Topics End-->
+## 🎯 Purpose of This Repository
+- Track daily learning progress
+- Practice core C# concepts
+- Improve problem-solving skills
+- Maintain a clean and organized codebase
+- Prepare for technical interviews
+
+---
+
+## 🚀 Technologies Used
+- C#
+- .NET
+- Git & GitHub
+- Visual Studio Code
+
+---
+
+## ✨ Author
+Ashish Dubey  
+BridgeLabz C# Trainee
