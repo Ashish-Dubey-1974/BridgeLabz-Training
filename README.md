@@ -9,7 +9,7 @@ easy navigation and learning.
 ---
 
 ## 📂 Repository Structure
-
+"""
 BridgeLabz-Training/
 │
 ├── core-csharp-practice/
@@ -44,7 +44,7 @@ BridgeLabz-Training/
 │
 ├── README.md
 └── .gitignore
-
+"""
 ---
 
 ## 🧠 Topics Covered
