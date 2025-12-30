@@ -17,7 +17,7 @@ class TemparatureAnalyser
         while (true)
         {
             Console.WriteLine("\nMenu --->\nTo Find Hottest and Coldest Temparature of the Day Press 1 :\nTo Find Average Temparature of Every Day Press 2:\nTo Exit press 3 ");
-            int input = Convert.ToInt16(Console.ReadLine());
+            int input = int.Parse(Console.ReadLine());
             switch (input)
             {
                 case 1 :
