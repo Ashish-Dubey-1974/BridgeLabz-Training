@@ -1,4 +1,5 @@
-BridgeLabz .NET C# Training 🚀<br>
+**BridgeLabz .NET C# Training** 🚀<br>
+<br>
 This repository documents my .NET C# training journey at BridgeLabz, focused on developing strong programming fundamentals, object-oriented thinking, and real-world problem-solving skills.<br>
 The repository is organized using multiple Git branches, where each branch represents different phases, concepts, and practice work completed during the training period.<br>
 <br>
