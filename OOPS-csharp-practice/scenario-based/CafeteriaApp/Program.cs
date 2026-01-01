@@ -6,6 +6,7 @@ namespace CafeteriaApp
 
     class Program
     {
+        
         public static string[] Menu =
         {
             "Espresso",

@@ -3,6 +3,7 @@ namespace CafeteriaApp
 {
     class Customer
     {
+        
         public void LoggedAsCustomer()
         {
             Console.WriteLine("Customer Logged In Successfully!");
