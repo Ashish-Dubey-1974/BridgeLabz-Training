@@ -1,5 +1,6 @@
 core-csharp-practice/
 .vs/
+review/
 BridgeLabz-Training.sln
 
 # --------------BankManagement-----------------
@@ -12,6 +13,3 @@ OOPS-csharp-practice/scenario-based/CafeteriaApp/bin/
 OOPS-csharp-practice/scenario-based/CafeteriaApp/obj/
 OOPS-csharp-practice/scenario-based/CafeteriaApp/.vs/
 OOPS-csharp-practice/scenario-based/CafeteriaApp/CafeteriaApp.csproj
-
-
-
