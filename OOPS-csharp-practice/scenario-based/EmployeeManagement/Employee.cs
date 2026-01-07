@@ -6,16 +6,16 @@ namespace EmployeeManagement
         int Id { get; set; }
         string Name { get; set; }
         string Position { get; set; }
-        double Salary { get; set; }
+        string Status { get; set; }
 
         public Employee() { }
 
-        public Employee(int id, string name, string position, double salary)
+        public Employee(int id, string name, string position, string status)
         {
             Id = id;
             Name = name;
             Position = position;
-            Salary = salary;
+            Status = status;
         }
 
         public int GetId()
@@ -23,10 +23,15 @@ namespace EmployeeManagement
             return Id;
         }
 
+        public string GetStatus()
+        {
+            return Status;
+        }
+
 
         public override string ToString()
         {
-            return $"ID: {Id}, Name: {Name}, Position: {Position}, Salary: {Salary:C}";
+            return $"ID: {Id}, Name: {Name}, Position: {Position}, Status: {Status}";
         }
     }
 }

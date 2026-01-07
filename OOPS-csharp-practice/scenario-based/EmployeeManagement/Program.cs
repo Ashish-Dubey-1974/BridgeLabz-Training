@@ -1,6 +1,6 @@
 ﻿namespace EmployeeManagement
 {
-    sealed class Program
+    internal class Program
     {
         static EmployeeMenu employeemenu;
 

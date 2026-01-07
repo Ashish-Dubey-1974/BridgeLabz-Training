@@ -1,3 +1,4 @@
+using System;
 namespace EmployeeManagement
 {
     sealed class EmployeeMenu
@@ -5,27 +6,44 @@ namespace EmployeeManagement
         private IEmployee employeeService;
         public void DisplayMenu()
         {
-            employeeService = new EMPLUtility();
-            Console.WriteLine("\n-----------------Welcome To Employee Management Menu--------------------\n");
-            Console.WriteLine("1. Add Employee");
-            Console.WriteLine("2. Employee is present  ?");
-            int choice=int.Parse(Console.ReadLine());
-
-            if(choice==1)
+            while (true)
             {
-                Employee emp = employeeService.AddEmployee();
-                Console.WriteLine($"Employee Added Successfully: {emp}");
-            }
-            else if(choice==2)
-            {
-                Console.WriteLine("Enter Employee ID to check presence:");
-                int empId = int.Parse(Console.ReadLine());
-                bool isPresent = employeeService.IsEmployeePresent(empId);
-                Console.WriteLine(isPresent ? "Employee is present." : "Employee is not present.");
-            }
-            else
-            {
-                Console.WriteLine("Invalid choice. Please try again.");
+                employeeService = new EMPLUtility();
+                Console.WriteLine("\n-----------------Welcome To Employee Management Menu--------------------\n");
+                Console.WriteLine("1. Add Employee");
+                Console.WriteLine("2. Employee is present  ?");
+                Console.WriteLine("3. Calculate Employee Wage");
+                Console.WriteLine("4. Add PartTime Employee");
+                Console.WriteLine("5. Exit");
+                int choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        Employee emp = employeeService.AddEmployee();
+                        Console.WriteLine($"Employee Added Successfully: {emp}");
+                        break;
+                    case 2:
+                        Console.WriteLine("Enter Employee ID to check presence:");
+                        int empId = int.Parse(Console.ReadLine());
+                        bool isPresent = employeeService.IsEmployeePresent(empId);
+                        Console.WriteLine(isPresent ? "Employee is present." : "Employee is not present.");
+                        break;
+                    case 3:
+                        Console.WriteLine("Enter Employee ID to calculate wage:");
+                        int empIdWage = int.Parse(Console.ReadLine());
+                        double wage = employeeService.CalculateWage(empIdWage);
+                        Console.WriteLine($"Calculated Wage: {wage}");
+                        break;
+                    case 4:
+                        employeeService.AddPartTimeEmployee();
+                        break;
+                    case 5:
+                        Console.WriteLine("Exiting the menu. Goodbye!");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
+                }
             }
 
         }

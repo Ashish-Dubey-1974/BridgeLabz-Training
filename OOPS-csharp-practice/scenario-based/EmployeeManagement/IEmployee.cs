@@ -3,6 +3,8 @@ namespace EmployeeManagement{
     {
         Employee AddEmployee();
         bool IsEmployeePresent(int empId);
+        double CalculateWage(int empId);
+        void AddPartTimeEmployee();
 
     }
 }
