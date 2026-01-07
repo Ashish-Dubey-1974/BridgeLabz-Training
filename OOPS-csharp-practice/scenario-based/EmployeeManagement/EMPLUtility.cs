@@ -15,7 +15,7 @@ namespace EmployeeManagement{
         {
             employees[0] = new Employee(1, "Hemant", "Software Engineer","P");
             employees[1] = new Employee(2, "Ashish", "Project Manager","P");
-            employees[2] =   new Employee(3, "Pushpendra ", "QA Analyst","P");
+            employees[2] = new Employee(3, "Pushpendra ", "QA Analyst","P");
             WorkingDays[0] = 22;
             WorkingDays[1] = 20;
             WorkingDays[2] = 18;
@@ -36,15 +36,15 @@ namespace EmployeeManagement{
                 return null;
             }
             Console.WriteLine("Adding a new employee...");
-            Console.Write("Enter employee Name: ");
+            Console.Write("Enter Employee Name: ");
             string name = Console.ReadLine();
-            Console.Write("Enter employee Position: ");
+            Console.Write("Enter Employee Position: ");
             string position = Console.ReadLine();
             employee = new Employee(count,name,position,"P");
-            Console.WriteLine("Total Working Days in Month: ");
+            Console.Write("Total Working Days in Month: ");
             WorkingDays[++count] = Convert.ToInt32(Console.ReadLine());
             employees[count] = employee;
-            Console.WriteLine("Employee added successfully.\n");
+            Console.WriteLine("\nEmployee added successfully.\n");
             
             return employee;
         }
@@ -74,12 +74,12 @@ namespace EmployeeManagement{
         public void AddPartTimeEmployee()
         {
             Console.WriteLine("Adding a part-time employee...");
-            Console.Write("Enter employee Name: ");
+            Console.Write("Enter Employee Name: ");
             string name = Console.ReadLine();
-            Console.Write("Enter employee Position: ");
+            Console.Write("Enter Employee Position: ");
             string position = Console.ReadLine();
             employee = new Employee(count, name, position,"PT");
-            Console.WriteLine("Total Working Days in Month: ");
+            Console.Write("Total Working Days in Month: ");
             WorkingDays[++count] = Convert.ToInt32(Console.ReadLine());
             employees[count] = employee;
         }
