@@ -6,15 +6,18 @@ namespace EmployeeManagement
         private IEmployee employeeService;
         public void DisplayMenu()
         {
+            Console.WriteLine("\n-----------------Welcome To Employee Management Menu--------------------\n");
             while (true)
             {
                 employeeService = new EMPLUtility();
-                Console.WriteLine("\n-----------------Welcome To Employee Management Menu--------------------\n");
+                Console.WriteLine("\n-----------------Home Page--------------------\n");
                 Console.WriteLine("1. Add Employee");
                 Console.WriteLine("2. Employee is present  ?");
                 Console.WriteLine("3. Calculate Employee Wage");
                 Console.WriteLine("4. Add PartTime Employee");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("5. Display All Employees");
+                Console.WriteLine("6. Exit");
+                Console.WriteLine("------------------------------------------------------------");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -38,6 +41,9 @@ namespace EmployeeManagement
                         employeeService.AddPartTimeEmployee();
                         break;
                     case 5:
+                        employeeService.DisplayAllEmployees();
+                        break;
+                    case 6:
                         Console.WriteLine("Exiting the menu. Goodbye!");
                         return;
                     default:

@@ -13,9 +13,9 @@ namespace EmployeeManagement{
         //------------------------------Add some Employee Data-------------------------
         static EMPLUtility()
         {
-            employees[0] = new Employee(1, "Hemant", "Software Engineer","P");
-            employees[1] = new Employee(2, "Ashish", "Project Manager","P");
-            employees[2] = new Employee(3, "Pushpendra ", "QA Analyst","P");
+            employees[0] = new Employee(0, "Hemant", "Software Engineer","P");
+            employees[1] = new Employee(1, "Ashish", "Project Manager","P");
+            employees[2] = new Employee(2, "Pushpendra ", "QA Analyst","P");
             WorkingDays[0] = 22;
             WorkingDays[1] = 20;
             WorkingDays[2] = 18;
@@ -40,9 +40,9 @@ namespace EmployeeManagement{
             string name = Console.ReadLine();
             Console.Write("Enter Employee Position: ");
             string position = Console.ReadLine();
-            employee = new Employee(count,name,position,"P");
+            employee = new Employee(++count,name,position,"P");
             Console.Write("Total Working Days in Month: ");
-            WorkingDays[++count] = Convert.ToInt32(Console.ReadLine());
+            WorkingDays[count] = Convert.ToInt32(Console.ReadLine());
             employees[count] = employee;
             Console.WriteLine("\nEmployee added successfully.\n");
             
@@ -64,13 +64,23 @@ namespace EmployeeManagement{
             {
                 if (employees[i].GetId() == empId)
                 {
-                    if (employees[empId].GetStatus().Equals("PT"))
-                        return WagePT * HoursPerDay * WorkingDays[empId];
-                    return WageP * HoursPerDay * WorkingDays[empId];
+                    if (employees[empId].GetStatus().Equals("PT"))return WagePT * HoursPerDay * WorkingDays[empId];
+                    else return WageP * HoursPerDay * WorkingDays[empId];
                 }
             }return 0;
             
         }
+
+        public void DisplayAllEmployees()
+        {
+            Console.WriteLine("Employee List:");
+            for(int i=0;i<=count;i++)
+            {
+                Console.WriteLine(employees[i].ToString());
+            }
+            Console.WriteLine();
+        }
+
         public void AddPartTimeEmployee()
         {
             Console.WriteLine("Adding a part-time employee...");
@@ -78,10 +88,11 @@ namespace EmployeeManagement{
             string name = Console.ReadLine();
             Console.Write("Enter Employee Position: ");
             string position = Console.ReadLine();
-            employee = new Employee(count, name, position,"PT");
+            employee = new Employee(++count, name, position,"PT");
             Console.Write("Total Working Days in Month: ");
-            WorkingDays[++count] = Convert.ToInt32(Console.ReadLine());
+            WorkingDays[count] = Convert.ToInt32(Console.ReadLine());
             employees[count] = employee;
+            Console.WriteLine("Part Time Working Employee Added Successfully.......");
         }
 
 

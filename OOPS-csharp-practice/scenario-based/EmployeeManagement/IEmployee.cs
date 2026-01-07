@@ -5,6 +5,7 @@ namespace EmployeeManagement{
         bool IsEmployeePresent(int empId);
         double CalculateWage(int empId);
         void AddPartTimeEmployee();
+        void DisplayAllEmployees();
 
     }
 }
