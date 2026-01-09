@@ -51,9 +51,10 @@ class ATMDispenser
         Console.WriteLine("Scenario B: ?500 note removed");
         DispenseCash(amount, notesB);
 
-        // Scenario C
+        // Scenario C for fallback check we remove 1 or 2 rs
         int oddAmount = 883;
+        int[] notesC = { 200, 100, 50, 20, 10, 5};
         Console.WriteLine("Scenario C: Fallback example");
-        DispenseCash(oddAmount, notesB);
+        DispenseCash(oddAmount, notesC);
     }
 }
