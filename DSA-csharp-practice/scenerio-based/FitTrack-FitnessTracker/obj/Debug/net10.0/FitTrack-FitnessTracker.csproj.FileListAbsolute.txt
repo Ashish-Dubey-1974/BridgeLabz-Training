@@ -1,0 +1,15 @@
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\bin\Debug\net10.0\FitTrack-FitnessTracker.exe
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\bin\Debug\net10.0\FitTrack-FitnessTracker.deps.json
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\bin\Debug\net10.0\FitTrack-FitnessTracker.runtimeconfig.json
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\bin\Debug\net10.0\FitTrack-FitnessTracker.dll
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\bin\Debug\net10.0\FitTrack-FitnessTracker.pdb
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.AssemblyInfoInputs.cache
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.AssemblyInfo.cs
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.csproj.CoreCompileInputs.cache
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.sourcelink.json
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.dll
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\refint\FitTrack-FitnessTracker.dll
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.pdb
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\FitTrack-FitnessTracker.genruntimeconfig.cache
+C:\Users\ashis\OneDrive\Desktop\Traning\DSA-csharp-practice\scenerio-based\FitTrack-FitnessTracker\obj\Debug\net10.0\ref\FitTrack-FitnessTracker.dll
