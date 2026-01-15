@@ -43,19 +43,3 @@ The training emphasizes hands-on coding, daily practice, and structured learning
 👨‍💻 Author<br>
 Ashish Dubey<br>
 BridgeLabz Trainee | .NET C# Learner<br>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
-## Math
-|  |
-| ------- |
-| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
-## Matrix
-|  |
-| ------- |
-| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
-<!---LeetCode Topics End-->
