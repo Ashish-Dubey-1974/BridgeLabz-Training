@@ -13,7 +13,7 @@ namespace FlashDealz
             Console.Write("Enter Discount Percentage : ");
             double percent = double.Parse(Console.ReadLine());
             items.Add(new Ecommerce(name, percent, amount));
-            BubbleSort(items);
+            QuickSort(items,0,items.Count-1);
         }
         public void DisplayAll()
         {
@@ -29,17 +29,34 @@ namespace FlashDealz
                 Console.WriteLine("----------------------------");
             }
         }
-        void BubbleSort(IList<Ecommerce> items){
-            int n = items.Count;
-            for (int i = 0; i < n - 1; i++){
-                for (int j = 0; j < n - i - 1; j++){
-                    if (items[j].GetDiscountedAmount() < items[j+1].GetDiscountedAmount()){
-                        var temp = items[j];
-                        items[j] = items[j + 1];
-                        items[j + 1] = temp;
-                    }
-                }
+        void QuickSort(IList<Ecommerce> items,int low,int high){
+            if (low < high)
+            {
+                int pivot = Partition(items, low, high);
+                QuickSort(items, low, pivot - 1);
+                QuickSort(items, pivot + 1, high);
             }
+        }
+
+        int Partition(IList<Ecommerce> items, int low, int high)
+        {
+            double pivot = items[high].GetDiscountedAmount();
+            int idx = low;
+            for(int i = low; i < high; i++)
+            {
+                if (items[i].GetDiscountedAmount() > pivot)
+                {
+                    Ecommerce tempp = items[i];
+                    items[i] = items[idx];
+                    items[idx] = tempp;
+                    idx++;
+                }
+
+            }
+            Ecommerce temp = items[idx];
+            items[idx] = items[high];
+            items[high] = temp;
+            return idx;
         }
     }
 }
