@@ -1,5 +1,5 @@
 using System;
-class PriorityQueue
+class MaxHeap
 {
     int[] heap;
     int Length;
@@ -7,7 +7,7 @@ class PriorityQueue
 
     public static void Main()
     {
-        PriorityQueue q = new PriorityQueue();
+        MaxHeap q = new MaxHeap();
         q.Length = 5;
         q.heap = new int[q.Length];
         q.Add(5);
@@ -46,7 +46,7 @@ class PriorityQueue
         while (idx > 0)
         {
             int parent = (idx-1)/2;
-            if(heap[parent]<=heap[idx])break;
+            if(heap[parent]>=heap[idx])break;
             swap(parent, idx);
             idx=parent;
         }
@@ -60,8 +60,8 @@ class PriorityQueue
             int left = idx*2+1;
             int right = idx*2+2;
             int smallest = idx;
-            if(left<Length && heap[smallest]>heap[left])smallest=left;
-            if(right<Length && heap[smallest]>heap[right])smallest=right;
+            if(left<Length && heap[smallest]<heap[left])smallest=left;
+            if(right<Length && heap[smallest]<heap[right])smallest=right;
             if(smallest==idx)break;
             swap(smallest,idx);
             idx=smallest;
