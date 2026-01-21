@@ -1,0 +1,14 @@
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.AssemblyInfoInputs.cache
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.AssemblyInfo.cs
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.csproj.CoreCompileInputs.cache
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\bin\Debug\net10.0\RankSheetGenerator.exe
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\bin\Debug\net10.0\RankSheetGenerator.deps.json
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\bin\Debug\net10.0\RankSheetGenerator.runtimeconfig.json
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\bin\Debug\net10.0\RankSheetGenerator.dll
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\bin\Debug\net10.0\RankSheetGenerator.pdb
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.dll
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\refint\RankSheetGenerator.dll
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.pdb
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\RankSheetGenerator.genruntimeconfig.cache
+C:\Users\gaurav\Desktop\VisualStudioProjects\datastructures\SCenarioBased\RankSheetGenerator\obj\Debug\net10.0\ref\RankSheetGenerator.dll
