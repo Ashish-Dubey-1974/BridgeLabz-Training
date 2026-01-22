@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gaurav\\.nuget\\packages\\": {},
+    "C:\\Users\\ashis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gaurav\\Desktop\\VisualStudioProjects\\datastructures\\SCenarioBased\\RankSheetGenerator\\RankSheetGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\ashis\\OneDrive\\Desktop\\Traning\\generics-csharp-practice\\scenario-based\\RankSheetGenerator\\RankSheetGenerator.csproj",
       "projectName": "RankSheetGenerator",
-      "projectPath": "C:\\Users\\gaurav\\Desktop\\VisualStudioProjects\\datastructures\\SCenarioBased\\RankSheetGenerator\\RankSheetGenerator.csproj",
-      "packagesPath": "C:\\Users\\gaurav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gaurav\\Desktop\\VisualStudioProjects\\datastructures\\SCenarioBased\\RankSheetGenerator\\obj\\",
+      "projectPath": "C:\\Users\\ashis\\OneDrive\\Desktop\\Traning\\generics-csharp-practice\\scenario-based\\RankSheetGenerator\\RankSheetGenerator.csproj",
+      "packagesPath": "C:\\Users\\ashis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ashis\\OneDrive\\Desktop\\Traning\\generics-csharp-practice\\scenario-based\\RankSheetGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ashis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
