@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RankSheetGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2de51ff86f1a1f13e1c1c391681d5e1b07f159b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f5b4c08749d7e68dffd02959e04b5a901e3a016")]
 [assembly: System.Reflection.AssemblyProductAttribute("RankSheetGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RankSheetGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
