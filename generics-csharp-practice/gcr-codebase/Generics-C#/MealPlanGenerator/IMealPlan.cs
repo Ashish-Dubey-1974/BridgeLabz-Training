@@ -1,0 +1,5 @@
+
+interface IMealPlan
+{
+    void Prepare();
+}
