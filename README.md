@@ -1,3 +1,10 @@
+# 📘 BridgeLabz Training – OOPS C# Practice Repository
+
+## 👨‍💻 About This Repository
+This repository contains my **Object-Oriented Programming (OOPS)** practice work in **C#**
+as part of the BridgeLabz training program.  
+It focuses on understanding OOPS principles through hands-on examples,
+real-world scenarios, and clean code practices.
 # 📘 BridgeLabz Training – DSA C# Practice Repository
 
 ## 👨‍💻 About This Repository
@@ -71,6 +78,24 @@ DSA-csharp-practice/
 ## 🗓️ Practice & Learning Log
 
 ### 🟢 Day 1
+- Introduction to OOPS concepts
+- Created classes and objects
+
+### 🟢 Day 2
+- Learned encapsulation and access modifiers
+- Implemented getter and setter examples
+
+### 🟢 Day 3
+- Practiced inheritance (single & multilevel)
+- Code reusability using base and derived classes
+
+### 🟢 Day 4
+- Learned polymorphism
+- Implemented method overloading and overriding
+
+### 🟢 Day 5
+- Learned abstraction and interfaces
+- Designed loosely coupled applications
 - Introduction to DSA
 - Array basics and operations
 
@@ -101,11 +126,10 @@ DSA-csharp-practice/
 ---
 
 ## 🎯 Purpose of This Repository
-- Build strong DSA fundamentals
-- Improve logical and analytical thinking
-- Prepare for coding interviews
-- Master problem-solving using C#
-- Understand time and space complexity
+- Strengthen OOPS fundamentals in C#
+- Write clean, reusable, and maintainable code
+- Prepare for technical interviews
+- Build strong object-oriented thinking
 
 ---
 
@@ -118,83 +142,5 @@ DSA-csharp-practice/
 ---
 
 ## ✨ Author
-**Ashish Dubey**  
+Ashish Dubey  
 BridgeLabz C# Trainee
-**BridgeLabz .NET C# Training** 🚀<br>
-<br>
-This repository documents my .NET C# training journey at BridgeLabz, focused on developing strong programming fundamentals, object-oriented thinking, and real-world problem-solving skills.<br>
-The repository is organized using multiple Git branches, where each branch represents different phases, concepts, and practice work completed during the training period.<br>
-<br>
-📅 Training Duration<br>
-- Start Date: 16 December 2025<br>
-- End Date: 30 April 2026<br>
-<br>
-📚 Training Overview<br>
-
-- During this training, I am learning and practicing:<br>
-- C# Programming Fundamentals<br>
-- Control Flow and Logical Problem Solving<br>
-- Arrays, Strings, and Methods<br>
-- Object-Oriented Programming Concepts<br>
-- Console Application Development<br>
-- Clean Coding Practices<br>
-- Git & GitHub Version Control<br>
-
-The training emphasizes hands-on coding, daily practice, and structured learning.<br>
-
-🌿 Repository Structure<br>
-- The main branch provides an overview of the training.<br>
-- Other branches are used to organize learning modules, practice exercises, and assignments.<br>
-- This branching strategy ensures clean version control and easy navigation as the repository grows.<br>
-
-🛠 Technologies & Tools<br>
-- Language: C#<br>
-- Framework: .NET<br>
-- IDE: Visual Studio / VS Code<br>
-- Version Control: Git & GitHub<br>
-
-🎯 Purpose of This Repository<br>
-- Track progress throughout the BridgeLabz training<br>
-- Apply theoretical knowledge through practical implementation<br>
-- Maintain well-structured and readable code<br>
-- Follow industry-standard development practices<br>
-
-🙌 Acknowledgment<br>
-- This training is conducted by BridgeLabz, providing an industry-oriented learning experience in .NET and C# development.<br>
-
-👨‍💻 Author<br>
-Ashish Dubey<br>
-BridgeLabz Trainee | .NET C# Learner<br>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0003-longest-substring-without-repeating-characters) |
-## String
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0003-longest-substring-without-repeating-characters) |
-## Sliding Window
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0003-longest-substring-without-repeating-characters) |
-## Array
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
-## Two Pointers
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0026-remove-duplicates-from-sorted-array) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
-<!---LeetCode Topics End-->
