@@ -1,0 +1,100 @@
+using System;
+namespace EmployeeManagement{
+    public class  EMPLUtility:IEmployee
+    {
+        static Employee[] employees = new Employee[100];
+        static int[] WorkingDays = new int[100];
+        static int count;
+        int WageP = 20;
+        int WagePT = 10;
+        int HoursPerDay = 8;
+        private Employee employee;
+
+        //------------------------------Add some Employee Data-------------------------
+        static EMPLUtility()
+        {
+            employees[0] = new Employee(0, "Hemant", "Software Engineer","P");
+            employees[1] = new Employee(1, "Ashish", "Project Manager","P");
+            employees[2] = new Employee(2, "Pushpendra ", "QA Analyst","P");
+            WorkingDays[0] = 22;
+            WorkingDays[1] = 20;
+            WorkingDays[2] = 18;
+            count = 2;
+        }
+
+
+
+
+
+
+        //-------------------------Add IEmployee Method-------------------------
+        public Employee AddEmployee()
+        {
+            if(count>=99)
+            {
+                Console.WriteLine("Employee limit reached. Cannot add more employees.\n");
+                return null;
+            }
+            Console.WriteLine("Adding a new employee...");
+            Console.Write("Enter Employee Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter Employee Position: ");
+            string position = Console.ReadLine();
+            employee = new Employee(++count,name,position,"P");
+            Console.Write("Total Working Days in Month: ");
+            WorkingDays[count] = Convert.ToInt32(Console.ReadLine());
+            employees[count] = employee;
+            Console.WriteLine("\nEmployee added successfully.\n");
+            
+            return employee;
+        }
+
+
+        //-----------------------------------------Check IEmployee Method-------------------------
+        public bool IsEmployeePresent(int empId)
+        {
+            for(int i=0;i<count;i++)if(employees[i].GetId()==empId)return true;            
+            return false;
+        }
+
+
+        public double CalculateWage(int empId)
+        {
+            for(int i = 0; i < count; i++)
+            {
+                if (employees[i].GetId() == empId)
+                {
+                    if (employees[empId].GetStatus().Equals("PT"))return WagePT * HoursPerDay * WorkingDays[empId];
+                    else return WageP * HoursPerDay * WorkingDays[empId];
+                }
+            }return 0;
+            
+        }
+
+        public void DisplayAllEmployees()
+        {
+            Console.WriteLine("Employee List:");
+            for(int i=0;i<=count;i++)
+            {
+                Console.WriteLine(employees[i].ToString());
+            }
+            Console.WriteLine();
+        }
+
+        public void AddPartTimeEmployee()
+        {
+            Console.WriteLine("Adding a part-time employee...");
+            Console.Write("Enter Employee Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter Employee Position: ");
+            string position = Console.ReadLine();
+            employee = new Employee(++count, name, position,"PT");
+            Console.Write("Total Working Days in Month: ");
+            WorkingDays[count] = Convert.ToInt32(Console.ReadLine());
+            employees[count] = employee;
+            Console.WriteLine("Part Time Working Employee Added Successfully.......");
+        }
+
+
+    }
+}
