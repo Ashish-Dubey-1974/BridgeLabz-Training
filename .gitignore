@@ -3,3 +3,7 @@ core-csharp-practice/
 BridgeLabz-Training.sln
 obj/
 bin/
+obj/
+bin/
+.vs/
+bin/

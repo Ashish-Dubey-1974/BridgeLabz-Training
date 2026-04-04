@@ -5,36 +5,55 @@ This repository contains my **Object-Oriented Programming (OOPS)** practice work
 as part of the BridgeLabz training program.  
 It focuses on understanding OOPS principles through hands-on examples,
 real-world scenarios, and clean code practices.
+# 📘 BridgeLabz Training – DSA C# Practice Repository
+
+## 👨‍💻 About This Repository
+This repository contains my **Data Structures and Algorithms (DSA)** practice work in **C#**
+as part of the **BridgeLabz Training Program**.
+
+The main goal of this repository is to build strong problem-solving skills by implementing
+core DSA concepts using clean, structured, and optimized C# code.
 
 ---
 
 ## 📂 Repository Structure
 ```text
-OOPS-csharp-practice/
+DSA-csharp-practice/
 │
-├── Classes/
-│   ├── ClassAndObject.cs
+├── Arrays/
+│   ├── ArrayBasics.cs
+│   ├── ArrayOperations.cs
 │
-├── Encapsulation/
-│   ├── AccessModifiers.cs
+├── LinkedList/
+│   ├── SinglyLinkedList.cs
+│   ├── DoublyLinkedList.cs
+│   ├── CircularLinkedList.cs
 │
-├── Inheritance/
-│   ├── SingleInheritance.cs
-│   ├── MultilevelInheritance.cs
+├── Stack/
+│   ├── StackUsingArray.cs
+│   ├── StackUsingLinkedList.cs
 │
-├── Polymorphism/
-│   ├── MethodOverloading.cs
-│   ├── MethodOverriding.cs
+├── Queue/
+│   ├── QueueUsingArray.cs
+│   ├── CircularQueue.cs
 │
-├── Abstraction/
-│   ├── AbstractClassDemo.cs
+├── Searching/
+│   ├── LinearSearch.cs
+│   ├── BinarySearch.cs
 │
-├── Interfaces/
-│   ├── InterfaceExample.cs
+├── Sorting/
+│   ├── BubbleSort.cs
+│   ├── SelectionSort.cs
+│   ├── InsertionSort.cs
+│   ├── QuickSort.cs
+│   ├── MergeSort.cs
 │
-├── Constructors/
-│   ├── DefaultConstructor.cs
-│   ├── ParameterizedConstructor.cs
+├── Recursion/
+│   ├── Factorial.cs
+│   ├── Fibonacci.cs
+│
+├── DSA_Problems/
+│   ├── RealWorldProblems.cs
 │
 ├── README.md
 └── .gitignore
@@ -43,14 +62,16 @@ OOPS-csharp-practice/
 ---
 
 ## 🧠 Topics Covered
-- Classes & Objects
-- Constructors
-- Encapsulation
-- Inheritance
-- Polymorphism (Overloading & Overriding)
-- Abstraction
-- Interfaces
-- Real-world OOPS Scenarios
+- Arrays
+- Strings
+- Recursion
+- Searching Algorithms
+- Sorting Algorithms
+- Stack
+- Queue
+- Linked List (Singly, Doubly, Circular)
+- Time & Space Complexity
+- Real-world DSA problems
 
 ---
 
@@ -75,6 +96,32 @@ OOPS-csharp-practice/
 ### 🟢 Day 5
 - Learned abstraction and interfaces
 - Designed loosely coupled applications
+- Introduction to DSA
+- Array basics and operations
+
+### 🟢 Day 2
+- Searching techniques
+- Linear and Binary Search
+
+### 🟢 Day 3
+- Sorting algorithms
+- Bubble, Selection, and Insertion Sort
+
+### 🟢 Day 4
+- Stack and Queue implementation
+- Array-based and LinkedList-based approach
+
+### 🟢 Day 5
+- Linked Lists
+- Singly, Doubly, and Circular Linked List
+
+### 🟢 Day 6
+- Recursion concepts
+- Problem-solving using recursion
+
+### 🟢 Day 7
+- Real-world DSA-based problems
+- Optimization and complexity analysis
 
 ---
 
