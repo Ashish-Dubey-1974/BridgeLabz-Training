@@ -154,6 +154,7 @@ BridgeLabz C# Trainee
 | [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0169-majority-element) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -163,6 +164,7 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0075-sort-colors) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
@@ -181,4 +183,8 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
+## Simulation
+|  |
+| ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
