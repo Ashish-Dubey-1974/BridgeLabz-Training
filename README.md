@@ -144,3 +144,15 @@ DSA-csharp-practice/
 ## ✨ Author
 Ashish Dubey  
 BridgeLabz C# Trainee
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
