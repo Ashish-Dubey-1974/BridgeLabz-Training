@@ -151,6 +151,7 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0001-two-sum) |
+| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0169-majority-element) |
@@ -187,4 +188,12 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
