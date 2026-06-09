@@ -156,6 +156,7 @@ BridgeLabz C# Trainee
 | [0075-sort-colors](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0169-majority-element) |
 | [0560-subarray-sum-equals-k](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0560-subarray-sum-equals-k) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
