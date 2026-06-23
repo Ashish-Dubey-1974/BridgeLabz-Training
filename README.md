@@ -191,6 +191,7 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2390-removing-stars-from-a-string](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2390-removing-stars-from-a-string) |
 ## Math
 |  |
 | ------- |
@@ -203,4 +204,12 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0560-subarray-sum-equals-k) |
+## String
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2390-removing-stars-from-a-string) |
+## Stack
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
