@@ -154,6 +154,7 @@ BridgeLabz C# Trainee
 | [0048-rotate-image](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0169-majority-element) |
 | [0560-subarray-sum-equals-k](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0560-subarray-sum-equals-k) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
@@ -187,6 +188,7 @@ BridgeLabz C# Trainee
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashish-Dubey-1974/BridgeLabz-Training/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Simulation
 |  |
 | ------- |
